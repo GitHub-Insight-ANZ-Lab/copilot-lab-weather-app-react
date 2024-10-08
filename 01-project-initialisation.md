@@ -17,7 +17,7 @@
 
 1.  Initialise Project with Create React App
     ```bash
-    npx create-react-app weather-app --template typescript
+    npm create vite@latest weather-app -- --template react-ts
     ```
 
 2.  Navigate to Project Directory
