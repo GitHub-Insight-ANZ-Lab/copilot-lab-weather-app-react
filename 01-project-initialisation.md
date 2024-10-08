@@ -27,29 +27,11 @@
 
 3.  Start the Development Server
     ```bash
-    npm start
-    ```
-
-
-### 1.2. Initialise Git Repository
-
-1.  Initialise Git
-    ```bash
-    git init
-    ```
-    
-2.  Add All Files
-    ```bash
-    git add .
-    ```
-    
-3.  Commit Changes
-    ```bash
-    git commit -m "Initial commit"
+    npm run start
     ```
     
 
-### 1.3. Set Up GitHub Copilot
+### 1.2. Set Up GitHub Copilot
 
 1.  Install GitHub Copilot Extension in VSCode
     *   Go to Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X`)

@@ -15,38 +15,25 @@
 
 ### 3.1. Add 5-Day Forecast
 
-1.  Update Fetch Function
-    *   Type:
+1.  Fetch Forecast Data
+    *   In the `App` component, add a new state variable for forecast data
         ```tsx
-        // Function to fetch 5-day forecast data`
+        const [forecast, setForecast] = useState<any>();
         ```
-    *   Start typing:
-        ```tsx
-        const fetchForecastData = async (city: string) => {
+    *   Try prompting Copilot for the following:
         ```
-    *   Copilot Suggestion:
-        ```tsx
-            const response = await fetch(
-                `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`
-            );
-            const data = await response.json();
-            setForecastData(data);
-        };
+        Function to fetch the 5-day weather forecast for a city
         ```
-        
+    *   Highlight the existing `onClick` code and invoke the **Inline Chat** (`Ctrl+I` or `Cmd+I`) and try prompting it with the following:
+        ```
+        Fetch weather and forecast data, then set the respective states
+        ```
+    *   Copilot should provide a new implementation of the `onClick` behaviour
+
 2.  Display Forecast Data
-    *   Type:
-        ```tsx
-        // Map over forecast data to display it
+    *   Below the city weather display, invoke the **Inline Chat** again and prompt it with the following:
         ```
-    *   Copilot Suggestion:
-        ```tsx
-        {forecastData.list.map((item) => (
-            <div key={item.dt}>
-                <p>{new Date(item.dt_txt).toLocaleString()}</p>
-                <p>{item.main.temp}°C</p>
-            </div>
-        ))}
+        Map over forecast data to display it
         ```
 
 
@@ -58,60 +45,21 @@
     ```
 
 2.  Create a Toggle Button
-    *   Type:
-        ```tsx
-        // Button to switch units
+    *   Move the cursor below the Get Weather button, invoke the **Inline Chat** and prompt Copilot for the following:
         ```
-    *   Copilot Suggestion:
-        ```tsx
-        <button onClick={() => setUnits(units === "metric" ? "imperial" : "metric")}>
-            Switch to {units === "metric" ? "Imperial" : "Metric"}
-        </button>
+        Button to switch units
         ```
         
 3.  Update Fetch Functions
-    *   Modify API calls to include `units`:
-        ```tsx
-        `...&units=${units}`
+    *   Highlight the fetch functions, invoke the **Inline Chat** and prompt Copilot to do the following:
+        ```
+        Modify the API calls to include units
         ```
 
-### 3.3. Enhance Location Search
-
-1.  Use Geolocation API
-    *   Type:
-        ```tsx
-        // Function to get user's current location
+4.  Update the Units Displayed
+    *   Highlight the temperature markup, invoke the **Inline Chat** and prompt Copilot to do the following:
         ```
-    *   Start typing:
-        ```tsx
-        const getCurrentLocation = () => {
-        ```
-    *   Copilot Suggestion:
-        ```tsx
-            navigator.geolocation.getCurrentPosition((position) => {
-                const { latitude, longitude } = position.coords;
-                fetchWeatherDataByCoords(latitude, longitude);
-            });
-        };
-        ```
-        
-2.  Fetch Weather Data by Coordinates
-    *   Type:
-        ```tsx
-        // Function to fetch weather data using coordinates
-        ```
-    *   Start typing:
-        ```tsx
-        const fetchWeatherDataByCoords = async (lat: number, lon: number) => {
-        ```
-    *   Copilot Suggestion:
-        ```tsx
-            const response = await fetch(
-                `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=${units}`
-            );
-            const data = await response.json();
-            setWeatherData(data);
-        };
+        Display the correct unit abbreviation
         ```
 
 ---------------

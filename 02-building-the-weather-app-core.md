@@ -53,12 +53,12 @@
     *   Add a state variables for the city and weather to your `App` component:
         ```tsx
         const [city, setCity] = useState<string>("");
-        const [weather, setWeather] = useState<any>({});
+        const [weather, setWeather] = useState<any>();
         ```
     *   Now try using **inline suggestions** to add an input field for the city, as well as a button to fetch the current weather
 
 5.  Display Weather Data
-    *   Open an **Inline Chat** and ask a **workspace** question like the following:
+    *   Open the **Chat View** and ask a **workspace** question like the following:
         ```
         @workspace If weather data is available, display the city name and current temperate
         ```
