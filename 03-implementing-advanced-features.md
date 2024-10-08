@@ -7,7 +7,6 @@
 
 *   Add 5-day forecast functionality.
 *   Implement unit switching.
-*   Enable location search.
 
 
 ## Activities and GitHub Copilot Prompts:
