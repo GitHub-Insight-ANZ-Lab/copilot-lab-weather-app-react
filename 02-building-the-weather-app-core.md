@@ -31,7 +31,7 @@
 ### 2.2. Integrate OpenWeatherMap API
 
 1.  Obtain API Key
-    *   Sign up at [OpenWeatherMap](https://openweathermap.org/) to get an API key
+    *   Sign up at [OpenWeatherMap](https://openweathermap.org/price) to get a Free an API key
 
 2.  Store API Key in Environment Variable
     *   Create a new file in the project root called `.env`
