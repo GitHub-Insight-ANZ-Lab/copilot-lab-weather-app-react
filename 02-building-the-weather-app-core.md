@@ -106,3 +106,6 @@
         />
         <button onClick={() => fetchWeatherData(city)}>Get Weather</button>
         ```
+
+---------------
+[Previous - Project initialisation](./01-project-initialisation.md) | [Next - Implementing advanced features](./03-implementing-advanced-features.md)

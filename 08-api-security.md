@@ -32,3 +32,6 @@
 
 2.  Handle CORS Errors
     *   Discuss using proxy servers or configuring headers if needed.
+
+---------------
+[Previous - Testing and Debugging](./07-testing-and-debugging.md) | [Next - Documentaion and readme generation](./09-documentation-and-readme-generation.md)

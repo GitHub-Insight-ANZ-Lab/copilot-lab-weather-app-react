@@ -113,3 +113,6 @@
             setWeatherData(data);
         };
         ```
+
+---------------
+[Previous - Building the weather app core](./02-building-the-weather-app-core.md) |  [Next - State management with react hooks](./04-state-management-with-react-hooks.md)
