@@ -33,3 +33,6 @@ For each of the tasks in this section use either inline completions (ghost text)
 10. [Deployment](10-deployment.md)
 11. [Git Workflows and Collaboration](11-git-workflows-and-collaboration.md)
 12. [Conclusion](12-conclusion.md)
+
+---------------
+[Next - Project initialisation](./01-project-initialisation.md)
