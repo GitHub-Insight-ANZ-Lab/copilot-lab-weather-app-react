@@ -34,5 +34,9 @@ For each of the tasks in this section use either inline completions (ghost text)
 11. [Git Workflows and Collaboration](11-git-workflows-and-collaboration.md)
 12. [Conclusion](12-conclusion.md)
 
+## Getting Stuck?
+
+If you find yourself stuck at any point during the lab, remember to ask questions to GitHub Copilot in the chat. It's there to help you!
+
 ---------------
 [Next - Project initialisation](./01-project-initialisation.md)
