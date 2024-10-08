@@ -59,3 +59,5 @@
                 name: build
                 path: build
         ```
+---------------
+[Previous - Documentation and README Generation](09-documentation-and-readme-generation.md) | [Next - Git workflows and collaboration](./11-git-workflows-and-collaboration.md)

@@ -52,3 +52,6 @@
         3. Create a `.env` file with your API key.
         4. Run the app: `npm start`
         ```
+
+---------------
+[Previous - API Security](./08-api-security.md) | [Next - Deployment](./10-deployment.md)

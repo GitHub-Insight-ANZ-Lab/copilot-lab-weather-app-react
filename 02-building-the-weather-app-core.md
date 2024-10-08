@@ -64,3 +64,6 @@
         ```
     *   Copy the relevant code into your `App` component where applicable and try running the app
     *   You may find that the app has encountered an error, or does not work in the way you expected. Because this is a chat interaction, you can ask follow-up questions to refine the output.
+
+---------------
+[Previous - Project initialisation](./01-project-initialisation.md) | [Next - Implementing advanced features](./03-implementing-advanced-features.md)

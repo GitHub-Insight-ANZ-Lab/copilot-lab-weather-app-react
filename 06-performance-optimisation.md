@@ -50,3 +50,6 @@
             fetchWeatherData(city);
         }, [city, units]);
         ```
+
+---------------
+[Previous - Responsive Design and Accessibility](./05-responsive-design-and-accessibility.md) | [Next - Testing and Debugging](./07-testing-and-debugging.md)

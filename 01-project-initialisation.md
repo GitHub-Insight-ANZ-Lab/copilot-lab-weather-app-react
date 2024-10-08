@@ -74,3 +74,6 @@
         
 4.  Accept the Suggestion
     *   Click `Accept` or use the hotkey (`Ctrl+Enter` or `Cmd+Enter`) to accept Copilot's suggestion
+
+---------------
+[Next - Building the weather app core](./02-building-the-weather-app-core.md)
