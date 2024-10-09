@@ -60,4 +60,4 @@
                 path: build
         ```
 ---------------
-[Previous - Documentation and README Generation](09-documentation-and-readme-generation.md) | [Next - Git workflows and collaboration](./11-git-workflows-and-collaboration.md)
+[Previous - Documentation and README Generation](08-documentation-and-readme-generation.md) | [Next - Conclusion and Next Steps](./10-conclusion.md)
