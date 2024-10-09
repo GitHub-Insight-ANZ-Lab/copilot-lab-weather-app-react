@@ -34,4 +34,4 @@
     *   Discuss using proxy servers or configuring headers if needed.
 
 ---------------
-[Previous - Testing and Debugging](./06-testing-and-debugging.md) | [Next - Documentaion and readme generation](./08-documentation-and-readme-generation.md)
+[Previous - Testing and Debugging](./06-testing.md) | [Next - Documentaion and readme generation](./08-documentation-and-readme-generation.md)
