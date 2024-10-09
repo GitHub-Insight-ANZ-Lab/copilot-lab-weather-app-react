@@ -15,62 +15,30 @@
 ### 5.1. Responsive Design with CSS
 
 1.  Use Flexbox or Grid
-    *   Type in `App.css`:
-        ```css
-        /* Make the main content responsive */
+    *   Open the **Chat View** and perform a **workspace** query like the following:
         ```
-    *   Copilot Suggestion:
-        ```css
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
+        @workspace Implement a responsive design that displays the forecast in a row on desktop but in a column on mobile
         ```
-        
-2.  Add Media Queries
-    
-    *   Type:
-        ```css
-        /* Adjust layout for smaller screens */
+    *   Use follow-up queries to refine the suggestions, such as:
         ```
-    *   Copilot Suggestion:
-        ```css
-        @media (max-width: 600px) {
-            .weather-container {
-                flex-direction: column;
-            }
-        }
+        I would like to use Grid layout
         ```
+        or:
+        ```
+        Let's make the input and buttons fill the page width on mobile with a Flex layout
+        ```
+    *   Once you are happy with Copilot's suggestions, copy the code and style changes to their respective files
 
 
 ### 5.2. Accessibility Enhancements
 
 1.  Add ARIA Labels
-    *   In input fields:
-        ```tsx
-        <input
-            type="text"
-            aria-label="City"
-            ...
-        />
+    *   Highlight the component markup and invoke the **Inline Chat** (`Ctrl+I` or `Cmd+I`)
+    *   Prompt Copilot with a query such as the following:
         ```
-
-2.  Ensure Keyboard Navigation
-    *   Type:
-        ```tsx
-        // Make the get current location button focusable
+        Add ARIA labels to make this accessible
         ```
-    *   Copilot Suggestion:
-        ```tsx
-        <button
-            onClick={getCurrentLocation}
-            tabIndex={0}
-        >
-            Use Current Location
-        </button>
-        ```
+    *   Copilot will suggest changes that you can apply by clicking Accept or using the hotkey (`Ctrl+Enter` or `Cmd+Enter`)
         
 ---------------
 [Previous - State Management with React Hooks](./04-state-management-with-react-hooks.md) | [Next - Performance Optimisation](./06-performance-optimisation.md)
