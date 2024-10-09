@@ -5,8 +5,8 @@
 
 ## Objectives:
 
-*   Implement responsive design with CSS.
-*   Ensure accessibility compliance.
+*   Implement basic responsive design with CSS.
+*   Ensure basic accessibility compliance.
 
 
 ## Activities and GitHub Copilot Prompts:
