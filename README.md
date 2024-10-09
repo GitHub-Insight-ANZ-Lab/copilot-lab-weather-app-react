@@ -1,7 +1,7 @@
 # GitHub Copilot Workshop for Front-end developers
 
 ## Introduction
-This workshop is designed for front-end developers familiar with React and TypeScript. Participants will build a weather application that integrates the OpenWeatherMap API, utilising GitHub Copilot to enhance productivity and code quality. The workshop covers key topics such as state management, testing, debugging, performance optimization, responsive design, accessibility, API security, deployment, and Git workflows.
+This workshop is designed for front-end developers familiar with React and TypeScript. Participants will build a weather application that integrates the OpenWeatherMap API, utilising GitHub Copilot to enhance productivity and code quality. The workshop covers basic topics such as state management, testing, debugging, responsive design, accessibility and API security.
 
 
 ## Learning Objectives:
@@ -26,13 +26,10 @@ For each of the tasks in this section use either inline completions (ghost text)
 3.  [Implementing Advanced Features](03-implementing-advanced-features.md)
 4.  [State Management with React Hooks](04-state-management-with-react-hooks.md)
 5.  [Responsive Design and Accessibility](05-responsive-design-and-accessibility.md)
-6.  [Performance Optimisation](06-performance-optimisation.md)
-7.  [Testing and Debugging](07-testing-and-debugging.md)
-8.  [API Security](08-api-security.md)
-9.  [Documentation and README Generation](09-documentation-and-readme-generation.md)
-10. [Deployment](10-deployment.md)
-11. [Git Workflows and Collaboration](11-git-workflows-and-collaboration.md)
-12. [Conclusion](12-conclusion.md)
+6.  [Testing and Debugging](06-testing-and-debugging.md)
+7.  [API Security](07-api-security.md)
+8.  [Documentation and README Generation](08-documentation-and-readme-generation.md)
+09. [Conclusion](09-conclusion.md)
 
 ## Getting Stuck?
 
