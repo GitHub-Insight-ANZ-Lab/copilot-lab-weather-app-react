@@ -41,4 +41,4 @@
     *   Copilot will suggest changes that you can apply by clicking Accept or using the hotkey (`Ctrl+Enter` or `Cmd+Enter`)
         
 ---------------
-[Previous - State Management with React Hooks](./04-state-management-with-react-hooks.md) | [Next - Testing and Debugging](./06-testing.md)
+[Previous - State Management with React Hooks](./04-state-management-with-react-hooks.md) | [Next - Testing](./06-testing.md)
