@@ -5,53 +5,20 @@
 
 ## Objectives:
 
-*   Use GitHub Copilot to generate documentation.
-*   Create a comprehensive `README.md`.
+*   Create a basic `README.md`.
 
 
 ## Activities and GitHub Copilot Prompts:
 
+### 9.1. Create `README.md`
 
-### 9.1. Generate Code Comments
+1.  At the root of your project, create a file named README.md.
 
-1.  Add Comments to Functions
-    *   Type:
-        ```tsx
-        // Describe what fetchWeatherData does
-        ``` 
-    *   Copilot Suggestion:
-        ```tsx
-        /**
-         * Fetches weather data for a given city and updates the state.
-         * @param city - The name of the city to fetch weather data for.
-         */
-        ```
-
-
-### 9.2. Create `README.md`
-
-1.  Start README
-    *   Type:
-        ```markdown
-        # Weather App
-        ```
-    *   Copilot Suggestion:
-        ```markdown
-        A React and TypeScript application that displays weather information using the OpenWeatherMap API.
-
-        ## Features
-
-        - Current weather and 5-day forecast
-        - Unit conversion between Metric and Imperial
-        - Search by city or use current location
-
-        ## Installation
-
-        1. Clone the repository.
-        2. Install dependencies: `npm install`
-        3. Create a `.env` file with your API key.
-        4. Run the app: `npm start`
-        ```
+2. In the README file use the **Inline Chat** and prompt Copilot to do the following:
+    ```
+    Create a comprehensive Readme with the project title, description, list of features, prerequisites, instalation steps and explination of usage
+    ```
+3. This will set you up with a good basis for a README. Update the content to be more concise with the project.
 
 ---------------
 [Previous - API Security](./07-api-security.md) | [Next - Conclusion and Next Steps](./09-conclusion.md)
