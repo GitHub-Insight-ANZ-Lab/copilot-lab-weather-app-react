@@ -14,7 +14,7 @@
 
 1. Create a Basic Layout
 
-   - Open the Copilot **Chat View** (`Ctrl+Alt+I` or `Cmd+Alt+I`)
+   - Open the Copilot **Chat View** (`Ctrl+Alt+I` or `Ctrl+Cmd+I`)
    - Prompt Copilot with a **workspace** query like the following:
 
      ```md
@@ -39,7 +39,7 @@
    - Add the API key:
 
      ```env
-     REACT_APP_WEATHER_API_KEY=your_api_key_here
+     VITE_WEATHER_API_KEY=your_api_key_here
      ```
 
 3. Fetch Weather Data
