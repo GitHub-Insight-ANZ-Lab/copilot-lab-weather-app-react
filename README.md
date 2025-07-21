@@ -22,7 +22,7 @@ By the end of this workshop, participants will:
 ## Interacting with GitHub Copilot
 Throughout the lab tasks, you will need to interact with Copilot. There are several methods of interacting, including:
 *   Inline Chat (`Ctrl+I` or `Cmd+I`)
-*   Chat View (`Ctrl+Alt+I` or `Cmd+Alt+I`)
+*   Chat View (`Ctrl+Alt+I` or `Ctrl+Cmd+I`)
 *   Inline suggestion (code completion)
 
 It is recommended that you try each method as you progress through this lab, as each method has unique strengths. While we often suggest a particular method of interaction, that may not be the only way to complete a lab task, so you're invited to try other methods too.
