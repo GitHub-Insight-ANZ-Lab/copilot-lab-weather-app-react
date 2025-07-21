@@ -39,7 +39,7 @@
    - Add the API key:
 
      ```env
-     REACT_APP_WEATHER_API_KEY=your_api_key_here
+     VITE_WEATHER_API_KEY=your_api_key_here
      ```
 
 3. Fetch Weather Data
